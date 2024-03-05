@@ -1,2 +1,10 @@
-# The Docker image that will be used to build your app
-image: node:lts
+pages:
+ script:
+ - mkdir .public
+ - cp -r * .public
+ - mv .public public
+ artifacts:
+    paths:
+    - public
+ only:
+ - master
