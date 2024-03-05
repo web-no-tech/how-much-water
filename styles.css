@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+div.wrapper__personal-info, form.personal-info, label, div.service-description, main {
+    display: flex;
+    flex-direction: column;
+}
+
+div.wrapper__personal-info {
+    width: 100%;
+    max-width: 40rem;
+    min-width: 10rem;
+    box-shadow: 0px 0px 8px #ccc;
+    border-radius: 1rem;
+    padding: 1.5rem 1rem;
+    gap: 1rem;
+}
+
+form.personal-info {
+    gap: 1rem
+}
+
+label {
+    text-align: start;
+    gap: 0.25rem;
+}
+
+input {
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+}
+
+button {
+    font-size: 1rem;
+    color: #222;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 0px 2px #222;
+    background-color: #ddd;
+}
+
+button:hover {
+    filter: brightness(0.95);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+p.result {
+    display: none;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #444;
+    text-align: center;
+}
+
+div.service-description {
+    gap: 0.75rem;
+}
+
+div.service-description > h1 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    color: #222;
+}
+
+div.service-description > p {
+    font-size: 1rem;
+    color: #444;
+}
