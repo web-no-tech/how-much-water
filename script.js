@@ -29,5 +29,5 @@ personal_info_form.addEventListener('submit', (event) => {
     }
 
     result_paragraph.setAttribute('style', 'display: block;')
-    result_paragraph.textContent = `Você deve beber cerca de ${result / 1000} L ou ${Math.ceil(result / 190)} copos de água por dia`
+    result_paragraph.textContent = `Você deve beber cerca de ${result}mL de água por dia, equivalente a ${result / 1000}L ou ${Math.ceil(result / 190)} copos.`
 })
