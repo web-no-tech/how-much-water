@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://quantaaguadevobeber.com.br/sitemap.xml
